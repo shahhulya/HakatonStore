@@ -1,8 +1,13 @@
-import { TableCell, TableRow } from "@material-ui/core";
+// import { TableCell, TableRow } from "@material-ui/core";
+import Button from "@material-ui/core/Button";
+import Input from "@material-ui/core/Input"
+import Form from "@material-ui/core/FormControl"
 import React, { useContext } from "react";
+// import { Button } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import { storeContext } from "../../contexts/StoreContext";
 import classes from "./Order.module.css";
+import { Link } from "react-router-dom";
 
 
 export default function OrderForm() {
@@ -32,14 +37,18 @@ export default function OrderForm() {
                 </TableRow>
             ))} */}
             <form onSubmit={handleSubmit}>
-                <input type="text" placeholder="xxx-xxx-xxx-xxx-xxx-xxx" />
-                <input type="text" placeholder="ФИО" />
-                <input type="text" placeholder="Пароль" />
+                <Input type="text" placeholder="ФИО" required />
+                <Input type="text" placeholder="Город" required />
+                <Input type="text" placeholder="Адрес доставки" required />
                 <div>
-                    <input type="text" placeholder="CVC" />
-                    <input type="text" placeholder="ГГ/МГ" />
+                    <Input type="text" placeholder="Телефон" required />
+                    <Input type="text" placeholder="Email" required />
                 </div>
-                <button>Оплатить</button>
+                <Link to="/payment">
+                    <Button variant="contained" color="primary">Оплатить</Button>
+                </Link>
+
+
             </form>
         </div>
     );

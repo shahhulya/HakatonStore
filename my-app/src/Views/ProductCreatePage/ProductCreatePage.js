@@ -18,6 +18,7 @@ export default function ProductCreatePage() {
     title: '',
     price: '',
     description: '',
+    brand: null,
     images: '',
   };
 
@@ -27,6 +28,7 @@ export default function ProductCreatePage() {
       .typeError('Введите число!')
       .required('Обязательное поле!'),
     description: Yup.string().required('Обязательное поле!'),
+    brand: Yup.string().required('Обязательное поле!'),
     images: Yup.string().required('Обязательное поле!'),
   });
 
@@ -81,6 +83,14 @@ export default function ProductCreatePage() {
                 as={TextField}
               />
               <ErrorMessage component={TextError} name="description" />
+              <label>Категория</label>
+              <Field
+                className={classes.input}
+                name="brand"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="brand" />
 
               <label>Изображение</label>
               <Field

@@ -20,12 +20,12 @@ export default function BrandPage() {
     <MainLayout>
       {products.length && brandDetail ? (
         <>
-          <HeroSlider
+          {/* <HeroSlider
             slider={brandDetail.sliderImages.map((src) => ({
               title: `${brandDetail.title} hero slider`,
               src,
             }))}
-          />
+          /> */}
           <ProductsList products={products} />
         </>
       ) : (

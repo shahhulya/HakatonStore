@@ -6,12 +6,16 @@ import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
+import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
 import { Typography } from "@material-ui/core";
 import { calcTotalPrice } from "../../helpers/calcPrice";
 import { storeContext } from "../../contexts/StoreContext";
 import { Link } from "react-router-dom";
 import blueGrey from "@material-ui/core/colors/blueGrey";
+
+// import { Table, InputGroup, Button } from "react-bootstrap";
+
 
 const useStyles = makeStyles({
   table: {
@@ -43,12 +47,16 @@ export default function Cart() {
   return (
     <>
       <Link to="/">
-        <button
-          style={{ margin: "20px 40px", width: 120 }}
-          className={classes.button}
-        >
-          Home
-        </button>
+
+        <Button className={classes.btn}>Home</Button>
+
+//         <button
+//           style={{ margin: "20px 40px", width: 120 }}
+//           className={classes.button}
+//         >
+//           Home
+//         </button>
+
       </Link>
       <TableContainer component={Paper} className={classes.paper}>
         <Table className={classes.table} aria-label="spanning table">
@@ -105,9 +113,11 @@ export default function Cart() {
               ) : null}
               <TableCell colSpan={2}>
                 <Link to="/order">
-                  <button style={{ width: 80 }} className={classes.button}>
-                    Pay
-                  </button>
+
+//                   <button style={{ width: 80 }} className={classes.button}>
+//                     Pay
+//                   </button>
+
                 </Link>
               </TableCell>
             </TableRow>

@@ -15,21 +15,25 @@ export default function ProductCreatePage() {
   const history = useHistory();
 
   const initialValues = {
-    title: "",
-    price: "",
-    description: "",
-    images: "",
-    barnd: null,
+
+    title: '',
+    price: '',
+    description: '',
+    brand: null,
+    images: '',
+
   };
 
   const validationSchema = Yup.object({
     title: Yup.string().required("Обязательное поле!"),
     price: Yup.number()
-      .typeError("Введите число!")
-      .required("Обязательное поле!"),
-    description: Yup.string().required("Обязательное поле!"),
-    images: Yup.string().required("Обязательное поле!"),
-    brand: Yup.string().required("Обязательное поле!"),
+
+      .typeError('Введите число!')
+      .required('Обязательное поле!'),
+    description: Yup.string().required('Обязательное поле!'),
+    brand: Yup.string().required('Обязательное поле!'),
+    images: Yup.string().required('Обязательное поле!'),
+
   });
 
   const onSubmit = (values, actions) => {
@@ -83,6 +87,14 @@ export default function ProductCreatePage() {
                 as={TextField}
               />
               <ErrorMessage component={TextError} name="description" />
+              <label>Категория</label>
+              <Field
+                className={classes.input}
+                name="brand"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="brand" />
 
               <label>Изображение</label>
               <Field

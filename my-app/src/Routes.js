@@ -10,7 +10,7 @@ import ProductCreatePage from "./Views/ProductCreatePage/ProductCreatePage";
 import ProductDetailPage from "./Views/ProductDetailPage/ProductDetailPage";
 import ProductUpdatePage from "./Views/ProductUpdatePage/ProductUpdatePage";
 import SearchResultPage from "./Views/SearchResultPage/SearchResultPage";
-import { AuthProvider } from './contexts/AuthContext';
+import { AuthProvider } from "./contexts/AuthContext";
 import ForgotPassword from "./components/Auth/ForgotPassword/forgotPassword";
 import PaymentForm from "./components/Payment/Payment";
 import OrderForm from "./components/OrderForm/OrderForm";
@@ -18,27 +18,6 @@ import OrderForm from "./components/OrderForm/OrderForm";
 export default function Routes() {
   return (
     <Router>
-
-      <Switch>
-        <Route path="/" component={MainPage} exact />
-        <Route path="/products/create" component={ProductCreatePage} exact />
-        <Route
-          path="/products/search/:searchValue"
-          component={SearchResultPage}
-          exact
-        />
-        <Route path="/products/:id" component={ProductDetailPage} exact />
-        <Route
-          path="/products/:id/update/"
-          component={ProductUpdatePage}
-          exact
-        />
-        <Route path="/brand/:id" component={BrandPage} exact />
-        <Route path="/cart" component={Cart} exact />
-        <Route path="/login" component={Login} exact />
-        <Route path="/register" component={Register} exact />
-        <Route path="/orderform" component={OrderForm} />
-      </Switch>
       <AuthProvider>
         <Switch>
           <Route path="/order" component={OrderForm} exact />
@@ -63,7 +42,6 @@ export default function Routes() {
           <Route path="/cart" component={Cart} exact />
         </Switch>
       </AuthProvider>
-
     </Router>
   );
 }

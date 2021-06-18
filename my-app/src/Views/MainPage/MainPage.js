@@ -4,7 +4,6 @@ import ProductsList from "../../components/ProductsList";
 import ProductsPagination from "../../components/ProductsPagination";
 import { storeContext } from "../../contexts/StoreContext";
 import MainLayout from "../../Layouts/MainLayout";
-import MainForm from "../../components/MainForm/MainForm";
 import bmw from "../../assets/images/bmw.jpeg";
 import bmwM5 from "../../assets/images/bmw-m5.jpeg";
 import Hero from "../../components/Hero/Hero";
@@ -29,7 +28,7 @@ export default function MainPage() {
     <MainLayout>
       {/* <Hero /> */}
       <HeroSlider slider={heroSlider} />
-      <MainForm />
+      {/* <MainForm /> */}
       <div style={{ backgroundColor: "#fff" }}>
         <ProductsList products={products} />
         <ProductsPagination

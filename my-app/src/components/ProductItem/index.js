@@ -10,8 +10,8 @@ import Typography from "@material-ui/core/Typography";
 import Truncate from "react-truncate";
 import { useHistory } from "react-router";
 import { storeContext } from "../../contexts/StoreContext";
-import style from "../ProductItem/style.css";
-import { Autocomplete } from "@material-ui/lab";
+// import style from "../ProductItem/style.css";
+// import { Autocomplete } from "@material-ui/lab";
 
 const useStyles = makeStyles({
   root: {

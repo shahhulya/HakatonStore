@@ -13,9 +13,7 @@ import { calcTotalPrice } from "../../helpers/calcPrice";
 import { storeContext } from "../../contexts/StoreContext";
 import { Link } from "react-router-dom";
 import blueGrey from "@material-ui/core/colors/blueGrey";
-
 // import { Table, InputGroup, Button } from "react-bootstrap";
-
 
 const useStyles = makeStyles({
   table: {
@@ -25,14 +23,14 @@ const useStyles = makeStyles({
     maxWidth: 1000,
     margin: "40px auto",
   },
-  button: {
-    height: "35px",
-    border: "none",
-    borderRadius: "10px",
-    boxShadow: "3px 3px 6px rgba(0, 0, 0, 0.5)",
-    backgroundColor: "#3f51b5",
-    color: "#fff",
-    fontSize: 19,
+  btn: {
+    maxWidth: 100,
+    width: 70,
+    height: 50,
+    marginLeft: 140,
+    marginTop: 20,
+    borderRadius: 10,
+    color: blueGrey[700],
   },
 });
 
@@ -47,26 +45,17 @@ export default function Cart() {
   return (
     <>
       <Link to="/">
-
         <Button className={classes.btn}>Home</Button>
-
-//         <button
-//           style={{ margin: "20px 40px", width: 120 }}
-//           className={classes.button}
-//         >
-//           Home
-//         </button>
-
       </Link>
       <TableContainer component={Paper} className={classes.paper}>
         <Table className={classes.table} aria-label="spanning table">
           <TableHead>
             <TableRow>
-              <TableCell>Image</TableCell>
-              <TableCell align="right">Title</TableCell>
-              <TableCell align="right">Price</TableCell>
-              <TableCell align="right">Count</TableCell>
-              <TableCell align="right">SubPrice</TableCell>
+              <TableCell>Фото</TableCell>
+              <TableCell align="right">Название</TableCell>
+              <TableCell align="right">Цена</TableCell>
+              <TableCell align="right">Количество</TableCell>
+              <TableCell align="right">Сумма</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -101,7 +90,7 @@ export default function Cart() {
             <TableRow>
               <TableCell rowSpan={3} />
               <TableCell colSpan={2}>
-                <Typography variant="h5">Total: </Typography>{" "}
+                <Typography variant="h5">Итого: </Typography>{" "}
               </TableCell>
               {cart.products ? (
                 <TableCell align="right">
@@ -113,11 +102,8 @@ export default function Cart() {
               ) : null}
               <TableCell colSpan={2}>
                 <Link to="/order">
-
-//                   <button style={{ width: 80 }} className={classes.button}>
-//                     Pay
-//                   </button>
-
+                  <Button variant="contained" color="primary">Оформить</Button>
+                  {/* <Button>pay</Button> */}
                 </Link>
               </TableCell>
             </TableRow>

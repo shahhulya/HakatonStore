@@ -1,9 +1,8 @@
 {
-
   "brands": [
     {
       "id": 1,
-      "title": "BMW / X",
+      "title": "BMW / X - серия",
       "sliderImages": [
         "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/ruRU/Images/YEEZY_BOOST_700_ENFLAME_AMBER_HP-d_tcm224-692218.jpg",
         "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/ruRU/Images/YEEZY_BOOST_700_ENFLAME_AMBER_HP-d_tcm224-692218.jpg"
@@ -11,7 +10,7 @@
     },
     {
       "id": 2,
-      "title": "BMW / 1",
+      "title": "BMW / 1 - серия",
       "sliderImages": [
         "https://static.nike.com/a/images/f_auto/dpr_2.0/w_1328,c_limit/8d46e417-036f-4ce1-980b-7b1e47752c13/nike-just-do-it.jpg",
         "https://static.nike.com/a/images/f_auto/w_1920,c_limit/0c029a94-ec88-4c53-bae8-557c35154c62/image.jpg"
@@ -19,7 +18,7 @@
     },
     {
       "id": 3,
-      "title": "BMW / 2",
+      "title": "BMW / 2 - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -27,7 +26,7 @@
     },
     {
       "id": 4,
-      "title": "BMW / 3",
+      "title": "BMW / 3 - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -35,7 +34,7 @@
     },
     {
       "id": 5,
-      "title": "BMW / 4",
+      "title": "BMW / 4 - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -43,7 +42,7 @@
     },
     {
       "id": 6,
-      "title": "BMW / 5",
+      "title": "BMW / 5 - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -51,7 +50,7 @@
     },
     {
       "id": 7,
-      "title": "BMW / 6",
+      "title": "BMW / 6 - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -59,7 +58,7 @@
     },
     {
       "id": 8,
-      "title": "BMW / 7",
+      "title": "BMW / 7 - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -67,7 +66,7 @@
     },
     {
       "id": 9,
-      "title": "BMW / 8",
+      "title": "BMW / 8 - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -75,7 +74,7 @@
     },
     {
       "id": 10,
-      "title": "BMW / Z",
+      "title": "BMW / Z - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -83,7 +82,7 @@
     },
     {
       "id": 11,
-      "title": "BMW / M",
+      "title": "BMW / M - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -91,7 +90,7 @@
     },
     {
       "id": 12,
-      "title": "BMW / i",
+      "title": "BMW / i - серия",
       "sliderImages": [
         "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
         "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
@@ -117,7 +116,9 @@
       "description": "С каждой новой версией мы поднимаем планку. Теперь ты получаешь амортизацию, о которой даже не подозревал, и возврат энергии, которого ты всегда хотел. У этой модели поддерживающий hfjsdbfdsbds. Она заряжает каждый шаг дополнительной энергией благодаря системе Linear Energy Push, которая обеспечивает поддержку в передней и средней частях sbdhsjb",
       "images": [
         "https://media.ed.edmunds-media.com/bmw/x5/2021/oem/2021_bmw_x5_4dr-suv_xdrive45e_fq_oem_4_1600.jpg"
-      ]
+      ],
+      "year": "2018",
+      "engine": "4.8"
     },
     {
       "id": 3,
@@ -127,7 +128,9 @@
       "description": "Встречай будущее в этих dhsdvsdj. Модель в стиле ретро-техноhfjs. Верх из сетки и термополиуретана представлен в новых цветах и отдает дань уважения инновационному духу ZX. Половина промежуточной fndjsfsk Boost скрыта полупрозрачным пяточным каркасом для дополнительного комфорта и поддержки.",
       "images": [
         "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/p90411287-highres-the-new-bmw-m5-cs-01-1617902730.jpg?crop=0.641xw:0.640xh;0.209xw,0.334xh&resize=640:*"
-      ]
+      ],
+      "year": "2019",
+      "engine": "3"
     },
     {
       "title": "BMW T4",
@@ -254,16 +257,6 @@
       "id": 19
     },
     {
-      "title": "wqdqwdqwdqw",
-      "price": "2222",
-      "description": "ascaca",
-      "brand": "2",
-      "images": [
-        "http://www.foroffice.ru/upload/iblock/a56/11148.30_2_1000x1000.jpg"
-      ],
-      "id": 20
-    },
-    {
       "title": "Nurdin",
       "price": "23",
       "description": "фысфысф",
@@ -272,7 +265,27 @@
         "https://www.climaxcomputer.com/wp-content/uploads/2020/05/New-Apple-Macbook-Air-Gold-New.jpg"
       ],
       "id": 21
+    },
+    {
+      "title": "Кыргызтест",
+      "price": "23",
+      "description": "ascasc",
+      "brand": "sasacasc",
+      "images": [
+        "http://www.foroffice.ru/upload/iblock/a56/11148.30_2_1000x1000.jpg"
+      ],
+      "id": 22
+    },
+    {
+      "title": "X 5",
+      "price": "123456",
+      "description": "ascasca",
+      "brand": "1",
+      "images": [
+        "https://www.bmw.kg/content/dam/bmw/common/home/teaser/bmw-xseries-x6-hometeaser-sp-xxl.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1566826143551.jpg"
+      ],
+      "year": "2020",
+      "id": 23
     }
   ]
 }
-

@@ -197,6 +197,7 @@ export default function MainLayout(props) {
           </IconButton>
         </div>
         <Divider />
+
         <List>
           {brands.map((brand) => (
             <Link to={`/brand/${brand.id}`}>
@@ -218,7 +219,7 @@ export default function MainLayout(props) {
         <List>
           <Link to="/cart" style={{ textDecoration: "none", color: "white" }}>
             <ListItem button>
-              <ListItemText style={{ color: "#fff" }} primary="Cart" />
+              <ListItemText style={{ color: "#fff" }} primary="Корзина" />
               <IconButton color="inherit">
                 <ShoppingCartIcon />
               </IconButton>

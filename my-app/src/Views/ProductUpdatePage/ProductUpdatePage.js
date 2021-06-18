@@ -15,6 +15,8 @@ export default function ProductUpdatePage() {
     price: '',
     description: '',
     images: '',
+    year: '',
+    engine: '',
   });
 
   const { id } = useParams();
@@ -39,6 +41,9 @@ export default function ProductUpdatePage() {
 
   const validationSchema = Yup.object({
     title: Yup.string().required('Обязательное поле!'),
+    engine: Yup.number()
+      .typeError('Введите число!')
+      .required('Обязательное поле!'),
     price: Yup.number()
       .typeError('Введите число!')
       .required('Обязательное поле!'),
@@ -65,7 +70,7 @@ export default function ProductUpdatePage() {
           onSubmit={onSubmit}
           enableReinitialize
         >
-          {({}) => (
+          {({ }) => (
             <Form className={classes.form}>
               <Typography variant="h4">Изменение продукта</Typography>
               <label>Название</label>
@@ -78,6 +83,16 @@ export default function ProductUpdatePage() {
 
               <ErrorMessage component={TextError} name="title" />
 
+              <label>Год выпуска</label>
+              <Field
+                className={classes.input}
+                name="year"
+                variant="outlined"
+                as={TextField}
+              />
+
+              <ErrorMessage component={TextError} name="year" />
+
               <label>Цена</label>
               <Field
                 className={classes.input}
@@ -86,6 +101,15 @@ export default function ProductUpdatePage() {
                 as={TextField}
               />
               <ErrorMessage component={TextError} name="price" />
+
+              <label>Объем</label>
+              <Field
+                className={classes.input}
+                name="engine"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="engine" />
 
               <label>Описание</label>
               <Field

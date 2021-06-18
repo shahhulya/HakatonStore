@@ -28,7 +28,7 @@ const useStyles = makeStyles({
 export default function ProductItem({ data }) {
   const classes = useStyles();
 
-  const { title, images, price, description, id } = data;
+  const { title, year, engine, images, price, description, id } = data;
 
   const { addProductToCart } = useContext(storeContext);
 
@@ -45,8 +45,9 @@ export default function ProductItem({ data }) {
             </Truncate>
           </Typography>
 
-          <Typography variant="h5">{price} руб</Typography>
-
+          <Typography variant="h6">Цена - {price} руб</Typography>
+          <Typography variant="h6">Год - {year}</Typography>
+          <Typography variant="h6">Объем - {engine}</Typography>
           <Typography
             className={classes.description}
             variant="body2"

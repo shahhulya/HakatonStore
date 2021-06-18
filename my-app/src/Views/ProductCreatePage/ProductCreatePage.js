@@ -21,17 +21,25 @@ export default function ProductCreatePage() {
     description: '',
     brand: null,
     images: '',
-
+    year: '',
+    engine: '',
   };
 
   const validationSchema = Yup.object({
-    title: Yup.string().required("Обязательное поле!"),
+    title: Yup.string().required('Обязательное поле!'),
+    engine: Yup.number()
+      .typeError('Введите число!')
+      .required('Обязательное поле!'),
+    year: Yup.number()
+      .typeError('Введите число!')
+      .required('Обязательное поле!'),
     price: Yup.number()
-
       .typeError('Введите число!')
       .required('Обязательное поле!'),
     description: Yup.string().required('Обязательное поле!'),
-    brand: Yup.string().required('Обязательное поле!'),
+    brand: Yup.number()
+      .typeError('Введите число!')
+      .required('Обязательное поле!'),
     images: Yup.string().required('Обязательное поле!'),
 
   });
@@ -57,8 +65,8 @@ export default function ProductCreatePage() {
         >
           {({ values }) => (
             <Form className={classes.form}>
-              <Typography variant="h4">Создание продукта</Typography>
-              <label>Название</label>
+              <Typography variant="h4">Добавить Авто</Typography>
+              <label>Модель</label>
               <Field
                 className={classes.input}
                 name="title"
@@ -67,6 +75,25 @@ export default function ProductCreatePage() {
               />
 
               <ErrorMessage component={TextError} name="title" />
+
+              <label>Год выпуска</label>
+              <Field
+                className={classes.input}
+                name="year"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="year" />
+
+              <label>Объем</label>
+              <Field
+                className={classes.input}
+                name="engine"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="engine" />
+
 
               <label>Цена</label>
               <Field
@@ -96,7 +123,7 @@ export default function ProductCreatePage() {
               />
               <ErrorMessage component={TextError} name="brand" />
 
-              <label>Изображение</label>
+              <label>Фото</label>
               <Field
                 className={classes.input}
                 name="images"

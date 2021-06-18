@@ -50,8 +50,10 @@ export default function ProductDetailPage() {
             </IconButton>
           </div>
 
-          <Typography variant="h3">{productDetail.title}</Typography>
-          <Typography variant="h3">{productDetail.price}</Typography>
+          <Typography variant="h5">Модель - {productDetail.title}</Typography>
+          <Typography variant="h5">Год - {productDetail.year}</Typography>
+          <Typography variant="h5">Объем - {productDetail.engine}</Typography>
+          <Typography variant="h5">Цена - {productDetail.price} $</Typography>
           <Typography variant="body1">{productDetail.description}</Typography>
         </div>
       ) : (

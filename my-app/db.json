@@ -2,7 +2,7 @@
     "brands": [
       {
         "id": 1,
-        "title": "Adidas",
+        "title": "BMW Car",
         "logo": "https://www.adidas.ru/glass/react/f1fa822/assets/img/icon-adidas-logo.svg",
         "sliderImages": [
           "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/ruRU/Images/YEEZY_BOOST_700_ENFLAME_AMBER_HP-d_tcm224-692218.jpg",
@@ -11,7 +11,7 @@
       },
       {
         "id": 2,
-        "title": "Nike",
+        "title": "BMW Sport Car",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1280px-Logo_NIKE.svg.png",
         "sliderImages": [
           "https://static.nike.com/a/images/f_auto/dpr_2.0/w_1328,c_limit/8d46e417-036f-4ce1-980b-7b1e47752c13/nike-just-do-it.jpg",
@@ -20,7 +20,7 @@
       },
       {
         "id": 3,
-        "title": "Puma",
+        "title": "BMW Motorcycles",
         "logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/b/b4/Puma_logo.svg/2560px-Puma_logo.svg.png",
         "sliderImages": [
           "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",

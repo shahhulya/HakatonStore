@@ -9,8 +9,8 @@ import { storeContext } from "../../contexts/StoreContext";
 import classes from "./Order.module.css";
 import { Link } from "react-router-dom";
 
-
 export default function OrderForm() {
+
     const { cart, changeProductCount } = useContext(storeContext);
     const history = useHistory();
     const handleSubmit = (e) => {
@@ -50,6 +50,10 @@ export default function OrderForm() {
 
 
             </form>
+
         </div>
-    );
+        <button>Оплатить</button>
+      </form>
+    </div>
+  );
 }

@@ -11,7 +11,6 @@ import Truncate from "react-truncate";
 import { useHistory } from "react-router";
 import { storeContext } from "../../contexts/StoreContext";
 
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,

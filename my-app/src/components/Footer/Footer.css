@@ -1,7 +1,7 @@
 .footer-container {
   max-width: 100%;
   width: 100%;
-  /* background-image: url(../../assets/images/tech.jpg); */
+  background-image: url(../../assets/images/tech.jpg);
   object-fit: contain;
   padding: 4rem 0 2rem 0;
   display: flex;

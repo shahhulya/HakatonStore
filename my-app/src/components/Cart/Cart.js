@@ -21,14 +21,14 @@ const useStyles = makeStyles({
     maxWidth: 1000,
     margin: "40px auto",
   },
-  btn: {
-    maxWidth: 100,
-    width: 70,
-    height: 50,
-    marginLeft: 140,
-    marginTop: 20,
-    borderRadius: 10,
-    color: blueGrey[700],
+  button: {
+    height: "35px",
+    border: "none",
+    borderRadius: "10px",
+    boxShadow: "3px 3px 6px rgba(0, 0, 0, 0.5)",
+    backgroundColor: "#3f51b5",
+    color: "#fff",
+    fontSize: 19,
   },
 });
 
@@ -43,7 +43,12 @@ export default function Cart() {
   return (
     <>
       <Link to="/">
-        <button className={classes.btn}>Home</button>
+        <button
+          style={{ margin: "20px 40px", width: 120 }}
+          className={classes.button}
+        >
+          Home
+        </button>
       </Link>
       <TableContainer component={Paper} className={classes.paper}>
         <Table className={classes.table} aria-label="spanning table">
@@ -100,7 +105,9 @@ export default function Cart() {
               ) : null}
               <TableCell colSpan={2}>
                 <Link to="/order">
-                  <button>pay</button>
+                  <button style={{ width: 80 }} className={classes.button}>
+                    Pay
+                  </button>
                 </Link>
               </TableCell>
             </TableRow>

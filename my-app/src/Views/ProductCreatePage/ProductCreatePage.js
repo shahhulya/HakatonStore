@@ -1,13 +1,13 @@
-import { ErrorMessage, Field, Form, Formik } from 'formik';
-import React, { useContext } from 'react';
-import MainLayout from '../../Layouts/MainLayout';
-import * as Yup from 'yup';
-import { Button, FormControl, TextField, Typography } from '@material-ui/core';
-import classes from './productCreate.module.css';
-import TextError from '../../components/TextError';
-import { storeContext } from '../../contexts/StoreContext';
-import { notifySuccess } from '../../helpers/notifiers';
-import { useHistory } from 'react-router';
+import { ErrorMessage, Field, Form, Formik } from "formik";
+import React, { useContext } from "react";
+import MainLayout from "../../Layouts/MainLayout";
+import * as Yup from "yup";
+import { Button, FormControl, TextField, Typography } from "@material-ui/core";
+import classes from "./productCreate.module.css";
+import TextError from "../../components/TextError";
+import { storeContext } from "../../contexts/StoreContext";
+import { notifySuccess } from "../../helpers/notifiers";
+import { useHistory } from "react-router";
 
 export default function ProductCreatePage() {
   const { createProduct } = useContext(storeContext);
@@ -15,19 +15,21 @@ export default function ProductCreatePage() {
   const history = useHistory();
 
   const initialValues = {
-    title: '',
-    price: '',
-    description: '',
-    images: '',
+    title: "",
+    price: "",
+    description: "",
+    images: "",
+    barnd: null,
   };
 
   const validationSchema = Yup.object({
-    title: Yup.string().required('Обязательное поле!'),
+    title: Yup.string().required("Обязательное поле!"),
     price: Yup.number()
-      .typeError('Введите число!')
-      .required('Обязательное поле!'),
-    description: Yup.string().required('Обязательное поле!'),
-    images: Yup.string().required('Обязательное поле!'),
+      .typeError("Введите число!")
+      .required("Обязательное поле!"),
+    description: Yup.string().required("Обязательное поле!"),
+    images: Yup.string().required("Обязательное поле!"),
+    brand: Yup.string().required("Обязательное поле!"),
   });
 
   const onSubmit = (values, actions) => {
@@ -36,7 +38,7 @@ export default function ProductCreatePage() {
       images: [values.images],
     }).then((id) => {
       actions.resetForm();
-      notifySuccess('Продукт был создан!');
+      notifySuccess("Продукт был создан!");
       history.push(`/products/${id}`);
     });
   };
@@ -86,6 +88,15 @@ export default function ProductCreatePage() {
               <Field
                 className={classes.input}
                 name="images"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="images" />
+
+              <label>Категория</label>
+              <Field
+                className={classes.input}
+                name="brand"
                 variant="outlined"
                 as={TextField}
               />

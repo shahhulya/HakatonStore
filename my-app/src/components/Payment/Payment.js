@@ -1,42 +1,38 @@
 // import { Field } from 'formik';
-import React from 'react';
-import Card from 'react-credit-cards'
-import 'react-credit-cards/es/styles-compiled.css'
-import { Field, Form } from 'react-final-form';
-import { Link } from 'react-router-dom';
+import React from "react";
+import Card from "react-credit-cards";
+import "react-credit-cards/es/styles-compiled.css";
+import { Field, Form } from "react-final-form";
+import { Link } from "react-router-dom";
 // import classes from './Payment.module.css'
 import Styles from './Styles'
 import Button from '@material-ui/core/Button';
-
-
-
-
 
 // import { Form, Field } from 'react-final-form'
 import {
     formatCreditCardNumber,
     formatCVC,
-    formatExpirationDate
-} from './cardUtils'
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
+    formatExpirationDate,
+} from "./cardUtils";
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const onSubmit = () => {
     // await sleep(300)
     // window.alert(JSON.stringify(values, 0, 2))
-}
+};
 
 export default class PaymentForm extends React.Component {
     state = {
-        cvc: '',
-        expiry: '',
-        focus: '',
-        name: '',
-        number: '',
+        cvc: "",
+        expiry: "",
+        focus: "",
+        name: "",
+        number: "",
     };
 
     handleInputFocus = (e) => {
         this.setState({ focus: e.target.name });
-    }
+    };
 
     handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -48,7 +44,6 @@ export default class PaymentForm extends React.Component {
         return (
             <Styles>
                 <div id="PaymentForm">
-
                     <Form
                         onSubmit={onSubmit}
                         render={({
@@ -119,11 +114,11 @@ export default class PaymentForm extends React.Component {
                                     {/* <h2>Values</h2>
                                 <pre>{JSON.stringify(values, 0, 2)}</pre> */}
                                 </form>
-                            )
+                            );
                         }}
                     />
-                </div>
-            </Styles>
+                </div >
+            </Styles >
         );
     }
 }

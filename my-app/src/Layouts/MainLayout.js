@@ -203,6 +203,7 @@ export default function MainLayout(props) {
             <Link to={`/brand/${brand.id}`}>
               <ListItem button key={brand.id}>
                 <ListItemText style={{ color: "#fff" }} primary={brand.title} />
+
                 <ListItemIcon>
                   {/* <img
                     className={classes.brandLogo}
@@ -210,6 +211,7 @@ export default function MainLayout(props) {
                     alt={`${brand.title} logo`}
                   /> */}
                 </ListItemIcon>
+
               </ListItem>
             </Link>
           ))}

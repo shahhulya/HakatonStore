@@ -51,11 +51,11 @@ export default function Cart() {
         <Table className={classes.table} aria-label="spanning table">
           <TableHead>
             <TableRow>
-              <TableCell>Image</TableCell>
-              <TableCell align="right">Title</TableCell>
-              <TableCell align="right">Price</TableCell>
-              <TableCell align="right">Count</TableCell>
-              <TableCell align="right">SubPrice</TableCell>
+              <TableCell>Фото</TableCell>
+              <TableCell align="right">Название</TableCell>
+              <TableCell align="right">Цена</TableCell>
+              <TableCell align="right">Количество</TableCell>
+              <TableCell align="right">Сумма</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -90,7 +90,7 @@ export default function Cart() {
             <TableRow>
               <TableCell rowSpan={3} />
               <TableCell colSpan={2}>
-                <Typography variant="h5">Total: </Typography>{" "}
+                <Typography variant="h5">Итого: </Typography>{" "}
               </TableCell>
               {cart.products ? (
                 <TableCell align="right">
@@ -102,7 +102,7 @@ export default function Cart() {
               ) : null}
               <TableCell colSpan={2}>
                 <Link to="/order">
-                  <Button variant="contained" color="secondary">Pay</Button>
+                  <Button variant="contained" color="primary">Оформить</Button>
                   {/* <Button>pay</Button> */}
                 </Link>
               </TableCell>

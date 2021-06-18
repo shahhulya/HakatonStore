@@ -6,6 +6,10 @@ import { Field, Form } from 'react-final-form';
 import { Link } from 'react-router-dom';
 // import classes from './Payment.module.css'
 import Styles from './Styles'
+import Button from '@material-ui/core/Button';
+
+
+
 
 
 // import { Form, Field } from 'react-final-form'
@@ -70,7 +74,7 @@ export default class PaymentForm extends React.Component {
                                             component="input"
                                             type="text"
                                             pattern="[\d| ]{16,22}"
-                                            placeholder="Card Number"
+                                            placeholder="Номер карты"
                                             format={formatCreditCardNumber}
                                         />
                                     </div>
@@ -79,7 +83,7 @@ export default class PaymentForm extends React.Component {
                                             name="name"
                                             component="input"
                                             type="text"
-                                            placeholder="Name"
+                                            placeholder="Имя на карте"
                                         />
                                     </div>
                                     <div>
@@ -88,7 +92,7 @@ export default class PaymentForm extends React.Component {
                                             component="input"
                                             type="text"
                                             pattern="\d\d/\d\d"
-                                            placeholder="Valid Thru"
+                                            placeholder="Действительно до"
                                             format={formatExpirationDate}
                                         />
                                         <Field
@@ -96,21 +100,21 @@ export default class PaymentForm extends React.Component {
                                             component="input"
                                             type="text"
                                             pattern="\d{3,4}"
-                                            placeholder="CVC"
+                                            placeholder="CVC код"
                                             format={formatCVC}
                                         />
                                     </div>
-                                    <div className="buttons"> <Link to="/"><button type="submit" disabled={submitting}>
-                                        Submit
-                                    </button></Link>
+                                    <div className="buttons"> <Link to="/"><Button type="submit" disabled={submitting}>
+                                        Оплатить
+                                    </Button></Link>
 
-                                        <button
+                                        <Button
                                             type="button"
                                             onClick={form.reset}
                                             disabled={submitting || pristine}
                                         >
-                                            Reset
-                                        </button>
+                                            Очистить
+                                        </Button>
                                     </div>
                                     {/* <h2>Values</h2>
                                 <pre>{JSON.stringify(values, 0, 2)}</pre> */}

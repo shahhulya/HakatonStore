@@ -1,13 +1,16 @@
 // import { TableCell, TableRow } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import Input from "@material-ui/core/Input"
-import Form from "@material-ui/core/FormControl"
+import TableCell from "@material-ui/core/TableCell"
+import TableRow from "@material-ui/core/TableRow";
 import React, { useContext } from "react";
 // import { Button } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import { storeContext } from "../../contexts/StoreContext";
 import classes from "./Order.module.css";
 import { Link } from "react-router-dom";
+
+
 
 
 export default function OrderForm() {
@@ -17,9 +20,10 @@ export default function OrderForm() {
         e.preventDefault();
         history.push("/payment");
     };
+
     return (
         <div className={classes.order_form}>
-            {/* {cart.products.map((elem) => (
+            {cart.products.map((elem) => (
                 <TableRow key={elem.item.id}>
                     <TableCell>
                         <img style={{ width: "50px" }} src={elem.item.images[0]} alt="" />{" "}
@@ -35,17 +39,17 @@ export default function OrderForm() {
                     </TableCell>
                     <TableCell align="right">{elem.subPrice}</TableCell>
                 </TableRow>
-            ))} */}
+            ))}
             <form onSubmit={handleSubmit}>
-                <Input type="text" placeholder="ФИО" required />
-                <Input type="text" placeholder="Город" required />
-                <Input type="text" placeholder="Адрес доставки" required />
+                <Input type="text" placeholder="ФИО" />
+                <Input type="text" placeholder="Город" />
+                <Input type="text" placeholder="Адрес доставки" />
                 <div>
-                    <Input type="text" placeholder="Телефон" required />
-                    <Input type="text" placeholder="Email" required />
+                    <Input type="text" placeholder="Телефон" />
+                    <Input type="text" placeholder="Email" />
                 </div>
                 <Link to="/payment">
-                    <Button variant="contained" color="primary">Оплатить</Button>
+                    <Button variant="contained" color="primary">Перейти к оплате</Button>
                 </Link>
 
 

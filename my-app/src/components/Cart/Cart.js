@@ -13,7 +13,7 @@ import { storeContext } from "../../contexts/StoreContext";
 import { Link } from "react-router-dom";
 import blueGrey from "@material-ui/core/colors/blueGrey";
 
-// ghhh?
+
 const useStyles = makeStyles({
   table: {
     minWidth: 700,

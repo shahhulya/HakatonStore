@@ -13,7 +13,6 @@ import { storeContext } from "../../contexts/StoreContext";
 import { Link } from "react-router-dom";
 import blueGrey from "@material-ui/core/colors/blueGrey";
 
-// ghhh?
 const useStyles = makeStyles({
   table: {
     minWidth: 700,
@@ -99,6 +98,11 @@ export default function Cart() {
                   </Typography>{" "}
                 </TableCell>
               ) : null}
+              <TableCell colSpan={2}>
+                <Link to="/order">
+                  <button>pay</button>
+                </Link>
+              </TableCell>
             </TableRow>
           </TableBody>
         </Table>

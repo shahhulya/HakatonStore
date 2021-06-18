@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./components/Auth/Login/Login";
 import Register from "./components/Auth/Register/Register";
 import Cart from "./components/Cart/Cart";
-
 import BrandPage from "./Views/BrandPage/BrandPage";
 import MainPage from "./Views/MainPage/MainPage";
 import ProductCreatePage from "./Views/ProductCreatePage/ProductCreatePage";

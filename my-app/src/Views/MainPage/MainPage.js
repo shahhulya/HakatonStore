@@ -10,7 +10,6 @@ import bmwM5 from "../../assets/images/bmw-m5.jpeg";
 import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 
-
 export default function MainPage() {
   const { products, fetchProducts, total } = useContext(storeContext);
   const [page, setPage] = useState(1);

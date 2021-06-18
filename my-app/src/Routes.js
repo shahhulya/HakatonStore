@@ -9,7 +9,7 @@ import ProductCreatePage from "./Views/ProductCreatePage/ProductCreatePage";
 import ProductDetailPage from "./Views/ProductDetailPage/ProductDetailPage";
 import ProductUpdatePage from "./Views/ProductUpdatePage/ProductUpdatePage";
 import SearchResultPage from "./Views/SearchResultPage/SearchResultPage";
-import { AuthProvider } from './contexts/AuthContext';
+import { AuthProvider } from "./contexts/AuthContext";
 import ForgotPassword from "./components/Auth/ForgotPassword/forgotPassword";
 import PaymentForm from "./components/Payment/Payment";
 import OrderForm from "./components/OrderForm/OrderForm";

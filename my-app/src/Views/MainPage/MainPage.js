@@ -9,8 +9,7 @@ import bmw from "../../assets/images/bmw.jpeg";
 import bmwM5 from "../../assets/images/bmw-m5.jpeg";
 import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
-// import HeroImg from '../../assets/images/hero.jpeg';
-// import HeroImg2 from '../../assets/images/hero2.jpeg';
+
 
 export default function MainPage() {
   const { products, fetchProducts, total } = useContext(storeContext);
@@ -27,7 +26,7 @@ export default function MainPage() {
 
   return (
     <MainLayout>
-      {/* <Hero /> */}
+      <Hero />
       <HeroSlider slider={heroSlider} />
       <MainForm />
       <div style={{ backgroundColor: "#fff" }}>

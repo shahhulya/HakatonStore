@@ -14,6 +14,7 @@ const useStyles = makeStyles(() => ({
     // marginTop: 40,
     width: "100%",
     height: "auto",
+    // backgroundColor: "rgba(200,255,255,1)",
 
     // backgroundColor: "rgba(0,0,0,0.9)",
     padding: 24,

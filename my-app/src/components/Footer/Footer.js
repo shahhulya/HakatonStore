@@ -26,7 +26,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>
-              <a href="https://www.bmw.com/en/index.html">About Us</a>
+              <a href="https://www.bmw.kg/">WWW.BMW.KG</a>
             </h2>
           </div>
         </div>

@@ -4,288 +4,255 @@
       "id": 1,
       "title": "BMW / X - серия",
       "sliderImages": [
-        "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/ruRU/Images/YEEZY_BOOST_700_ENFLAME_AMBER_HP-d_tcm224-692218.jpg",
-        "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/ruRU/Images/YEEZY_BOOST_700_ENFLAME_AMBER_HP-d_tcm224-692218.jpg"
       ]
     },
     {
       "id": 2,
       "title": "BMW / 1 - серия",
       "sliderImages": [
-        "https://static.nike.com/a/images/f_auto/dpr_2.0/w_1328,c_limit/8d46e417-036f-4ce1-980b-7b1e47752c13/nike-just-do-it.jpg",
-        "https://static.nike.com/a/images/f_auto/w_1920,c_limit/0c029a94-ec88-4c53-bae8-557c35154c62/image.jpg"
       ]
     },
     {
       "id": 3,
       "title": "BMW / 2 - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 4,
       "title": "BMW / 3 - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 5,
       "title": "BMW / 4 - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 6,
       "title": "BMW / 5 - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 7,
       "title": "BMW / 6 - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 8,
       "title": "BMW / 7 - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 9,
       "title": "BMW / 8 - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 10,
       "title": "BMW / Z - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 11,
       "title": "BMW / M - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     },
     {
       "id": 12,
       "title": "BMW / i - серия",
       "sliderImages": [
-        "https://ru.puma.com/media/contentmanager/content/21SS_ECOM_MF_SP_SELECT_Felipe_Pantone_SplitHeroLeft_Tab__1536x1536_1.jpg",
-        "https://ru.puma.com/media/contentmanager/content/3_1536x1536_3.jpg"
       ]
     }
   ],
   "products": [
     {
-      "id": 1,
-      "brand": 1,
-      "title": "BMW XYZ",
-      "price": 15999,
-      "description": "С каждой новой версией мы поднимаем планку. Теперь ты получаешь амортизацию, о которой даже не подозревал, и возврат энергии, которого ты всегда хотел. У этой модели поддерживающий hfjsdbfdsbds. Она заряжает каждый шаг дополнительной энергией благодаря системе Linear Energy Push, которая обеспечивает поддержку в передней и средней частях sbdhsjb.",
-      "images": [
-        "https://www.webtekno.com/images/editor/default/0002/17/9182cd10d236e73930df1fae0f949c29a6f315d2.jpeg"
-      ]
-    },
-    {
-      "id": 2,
-      "brand": 1,
-      "title": "BMW Q8",
-      "price": "20000",
-      "description": "С каждой новой версией мы поднимаем планку. Теперь ты получаешь амортизацию, о которой даже не подозревал, и возврат энергии, которого ты всегда хотел. У этой модели поддерживающий hfjsdbfdsbds. Она заряжает каждый шаг дополнительной энергией благодаря системе Linear Energy Push, которая обеспечивает поддержку в передней и средней частях sbdhsjb",
-      "images": [
-        "https://media.ed.edmunds-media.com/bmw/x5/2021/oem/2021_bmw_x5_4dr-suv_xdrive45e_fq_oem_4_1600.jpg"
-      ],
-      "year": "2018",
-      "engine": "4.8"
-    },
-    {
-      "id": 3,
-      "brand": 1,
-      "title": "BMW R45",
-      "price": 12999,
-      "description": "Встречай будущее в этих dhsdvsdj. Модель в стиле ретро-техноhfjs. Верх из сетки и термополиуретана представлен в новых цветах и отдает дань уважения инновационному духу ZX. Половина промежуточной fndjsfsk Boost скрыта полупрозрачным пяточным каркасом для дополнительного комфорта и поддержки.",
-      "images": [
-        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/p90411287-highres-the-new-bmw-m5-cs-01-1617902730.jpg?crop=0.641xw:0.640xh;0.209xw,0.334xh&resize=640:*"
-      ],
-      "year": "2019",
-      "engine": "3"
-    },
-    {
-      "title": "BMW T4",
-      "brand": 1,
-      "price": "6000",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "images": [
-        "https://www.tuningblog.eu/wp-content/uploads/2020/08/Tuning-FF-Retrofittings-FFR-BMW-M340iJava-Green-G20-Header.jpg"
-      ],
-      "id": 5
-    },
-    {
-      "id": 6,
-      "brand": 1,
-      "title": "BMW SS3",
-      "price": 15999,
-      "description": "Когда мы впервые запустили Ultraboost, это были лучшие jsfksf в нашей истории. С каждой новой версией мы поднимаем планку. Теперь ты получаешь амортизацию, о которой даже не подозревал, и возврат энергии, которого ты всегда хотел. У этой модели поддерживающий jnkss Primeknit+ и на 6% больше капсул Boost в jsfsffa. Она заряжает каждый шаг дополнительной энергией благодаря системе Linear Energy Push, которая обеспечивает поддержку в передней и средней частях стопы.",
-      "images": [
-        "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2018/bmw-m-colours-vol-2/bmw-m-colours-vol-2-di-01-1185xflex.jpg",
-        "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2018/bmw-m-colours-vol-2/bmw-m-colours-vol-2-di-01-1185xflex.jpg",
-        "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2018/bmw-m-colours-vol-2/bmw-m-colours-vol-2-di-01-1185xflex.jpg"
-      ]
-    },
-    {
-      "id": 7,
-      "brand": 1,
-      "title": "BMW XY",
-      "price": "20000",
-      "description": "Когда мы впервые запустили Ultraboost, это были лучшие jsfksf в нашей истории. С каждой новой версией мы поднимаем планку. Теперь ты получаешь амортизацию, о которой даже не подозревал, и возврат энергии, которого ты всегда хотел. У этой модели поддерживающий jnkss Primeknit+ и на 6% больше капсул Boost в jsfsffa. Она заряжает каждый шаг дополнительной энергией благодаря системе Linear Energy Push, которая обеспечивает поддержку в передней и средней частях стопы.",
-      "images": [
-        "http://dupontregistrytampabay.com/wp-content/uploads/2017/03/Auto_4_BMW.jpg"
-      ]
-    },
-    {
-      "id": 8,
-      "brand": 1,
-      "title": "BMW L90",
-      "price": 12999,
-      "description": "Когда мы впервые запустили Ultraboost, это были лучшие jsfksf в нашей истории. С каждой новой версией мы поднимаем планку. Теперь ты получаешь амортизацию, о которой даже не подозревал, и возврат энергии, которого ты всегда хотел. У этой модели поддерживающий jnkss Primeknit+ и на 6% больше капсул Boost в jsfsffa. Она заряжает каждый шаг дополнительной энергией благодаря системе Linear Energy Push, которая обеспечивает поддержку в передней и средней частях стопы.",
-      "images": [
-        "https://robbreport.com/wp-content/uploads/2015/10/bmw-m2-011.jpg?w=1000",
-        "https://robbreport.com/wp-content/uploads/2015/10/bmw-m2-011.jpg?w=1000"
-      ]
-    },
-    {
-      "title": "BMW G6",
-      "brand": 1,
-      "price": "6000",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "images": [
-        "https://www.byri.net/wp-content/uploads/2021/03/New-BMW-M3-grows-to-600-horsepower-thanks-to-Manhart.jpg"
-      ],
-      "id": 9
-    },
-    {
-      "title": "BMW H6",
-      "brand": 1,
-      "price": "6000",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "images": [
-        "https://cdn.pocket-lint.com/r/s/1200x/assets/images/145044-cars-review-bmw-i8-review-lead-image1-bemvtmxvel.jpg"
-      ],
-      "id": 10
-    },
-    {
-      "id": 11,
-      "brand": 2,
-      "title": "BMW L90",
-      "price": 14000,
-      "category": "Nike",
-      "description": "Когда мы впервые запустили Ultraboost, это были лучшие jsfksf в нашей истории. С каждой новой версией мы поднимаем планку. Теперь ты получаешь амортизацию, о которой даже не подозревал, и возврат энергии, которого ты всегда хотел. У этой модели поддерживающий jnkss Primeknit+ и на 6% больше капсул Boost в jsfsffa. Она заряжает каждый шаг дополнительной энергией благодаря системе Linear Energy Push, которая обеспечивает поддержку в передней и средней частях стопы.",
-      "images": [
-        "https://mediapool.bmwgroup.com/cache/P9/202009/P90400000/P90400000-the-new-bmw-128ti-09-2020-2247px.jpg"
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Jordan Delta 2",
-      "price": 14000,
-      "brand": 2,
-      "description": "The radiance lives on in the Force 1 Low. This b-ball OG puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to help you shine. The upper features a digital print Swoosh that rides all the way to the back, leading to a flashy, textured backtab.",
-      "images": [
-        "https://mediacloud.carbuyer.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1615200081/autoexpress/2021/03/BMW%20M4%20Competition%202021%20UK-18.jpg"
-      ]
-    },
-    {
-      "title": "ascas",
-      "price": "2333",
-      "description": "ascas",
-      "brand": "2",
-      "images": [
-        "https://www.climaxcomputer.com/wp-content/uploads/2020/05/New-Apple-Macbook-Air-Gold-New.jpg"
-      ],
-      "id": 16
-    },
-    {
-      "title": "ascascasc",
-      "price": "223332",
-      "description": "casсфЫСфЫс",
-      "brand": "2",
-      "images": [
-        "http://www.foroffice.ru/upload/iblock/a56/11148.30_2_1000x1000.jpg"
-      ],
-      "id": 17
-    },
-    {
-      "title": "sacasdasc",
-      "price": "2132",
-      "description": "фысфыс",
-      "brand": "8",
-      "images": [
-        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUSEhgSFRUYGBgYGBESGBgaGBgYGBEYGBQZGRgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QGBISHjQhISE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0ND80P//AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUHBv/EAEEQAAIBAwIDBQUGAwYFBQAAAAECAAMREgQhBTFBE1FhcZEGIjKBoUJSYrHB0YKS8AcUFXKi4SODwtLxFkNTk7L/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAHREBAQEAAwEAAwAAAAAAAAAAAAERAhIhMUFRYf/aAAwDAQACEQMRAD8A7FC0UCIy9RzgLaFpFmRa484/tV235wHYwtFvEyF7QCLaLaFpA20CI6JAaVjZLEKwIrRbSTGJjLoZCOtC0BojgIoWIzAQFhIxWF5JcRgierjzkiMDylLUqbyOm5B2m+uxnfWlEY2lYai/gYPVvJ1q6sgxbyqlS20lWoDzi8bDUpjBGl7RA0mGnMZG7t0isZEzTUiWpFqnkYpaQXhlL1NSExpMheuF5n95WfWn7I+Z/aXE1evIqmrReZv4DeZlSozcyfLp6SO0YauVOIMfhAHidzKpqud8mhjDGUepEIQnFshF5WqaQHkbSzlC8bgoEOsUai/OXS0r1Kamall+piNKxHWTCtKj07cjIy5E11lTcaHaxQ/jM9aseHjqdl4NFyMqLWkyVAZm8cWVMrx95AWtIHqGTDV0tFlIVjDtT3y4auESpWFj1MarsOsV6t4k9S1HeOVyJE7xnaTpms6sNv1keMiLRrVDLIamygWlY1ow1ZcZ7LQaSK8oGtFWtGJ2aIeOVpRWpFOp7pmxucl8mRPVUczKDVmPW3lI5Iurb"
-      ],
-      "id": 18
-    },
-    {
-      "title": "qwdqwd",
-      "price": "22222",
-      "description": "asdcscasc",
-      "brand": "4",
-      "images": [
-        "https://www.bmw.kg/content/dam/bmw/common/home/teaser/bmw-xseries-x6-hometeaser-sp-xxl.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1566826143551.jpg"
-      ],
-      "id": 19
-    },
-    {
-      "title": "Nurdin",
-      "price": "23",
-      "description": "фысфысф",
-      "brand": "4",
-      "images": [
-        "https://www.climaxcomputer.com/wp-content/uploads/2020/05/New-Apple-Macbook-Air-Gold-New.jpg"
-      ],
-      "id": 21
-    },
-    {
-      "title": "Кыргызтест",
-      "price": "23",
-      "description": "ascasc",
-      "brand": "sasacasc",
-      "images": [
-        "http://www.foroffice.ru/upload/iblock/a56/11148.30_2_1000x1000.jpg"
-      ],
-      "id": 22
-    },
-    {
-      "title": "X 5",
-      "price": "123456",
-      "description": "ascasca",
+      "title": "BMW X1",
+      "price": "123000",
+      "description": "В ожидании знаковых событий: новый BMW X1 появился, чтобы задавать новые стандарты. Его стремление действовать выражается прежде всего в спортивном дизайне.",
       "brand": "1",
       "images": [
-        "https://www.bmw.kg/content/dam/bmw/common/home/teaser/bmw-xseries-x6-hometeaser-sp-xxl.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1566826143551.jpg"
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfjnWy10tLhu1XzWVo7puMLWFmdkAj5DOPFtpOZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giAyNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVD9Wh1DMzti%25eeqVYDafHRAjmztYRSJdw67aftxdTQVw1RSfWQlO%25%25VxdSeZGEbuzWQdjc9NO3aeZQ6KowfXRjcZwBL%255rx6Kc%252NG84WwBKupk81Fe%252B3inXVIjup2XH5rGv63iprJ8iKGwXHi4TPHA9%25rJHFlMsOou4TJIsDRXL3FlTv0YfeyXIslGAtebCrv0s9OfjNE4GA0ogS7wNF9OALUd1XkIogOybAMBnvLUgChOD85GybUEqgNV89ChbNmUhIPoEqhk7b1DMLNmqn1hrJDyk7m5VqbIYCn178zmJttE5V1PaXslfN8zVMRr0kSkPazDxiBndnMRaYWH2qQ5DxRteJrcZ8YWxfj0wpcPteWS6AlHKMfjedwWJXBDS6jQ%25eTv2Ydw6ZujlaptQ%25wc3ZpLifZu%25KXcolHS9uAqsr%25P61U39IjAeSw27BzcQkO"
+      ],
+      "year": "2017",
+      "engine": "4.4",
+      "id": 24
+    },
+    {
+      "title": "BMW X2",
+      "price": "140000",
+      "description": "Абсолютно уникальный. Чрезвычайно исключительный. Новый BMW X2 делает свои спортивные амбиции совершенно ясными с первого взгляда. Благодаря своему смелому атлетизму, он обеспечивает динамичную и гибкую производительность, которая не имеет себе равных в этом классе.",
+      "brand": "1",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfykPg10tLhu1XzWVo7puMLWFmdkAj5DOPshO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZnNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYXM5Wh1DMztil6eqVYDafz2xjmztYRSGBO67aftxdYrBw1RSfWQfum%25VxdSeZ4i3uzWQdjcyEh3aeZQ6KAIXXRjcZwBLnUrx6Kc%252Nqd4WwBKupUmIFe%252B3iu8IIjup2XH3ccv63iprJyCMGwXHi4TpW29%25rJHFlHY3ou4TJIsJNgL3FlTv0P6YyXIslGAzsHCrv0s9Ofo6E4GA0ogsU3NF9OALUPMLkIogOybQJ8nvLUgChCWA5GybUEqgmP89ChbNmUhIPoEqhk7bSaMLNmqn1hdGDyk7m5VqbIYCn178z5ThtE5V1Pa8lmfN8zVMRPcySkPazDx4AYdnMRaYWHt1Q5DxRteIjPZ8YWxfj0pUcPteWS6xiuKMfjedw9NxBDS6jQ%25oqh2Ydw6ZuTlHptQ%25wc3bKeifZu%25KXh5IHSc3uBru5vJdKX3242EVTQBrXpFOgilZ24riI1H0scpF4Hv4iX0KEFhzUG4fXx7IEL3huKrTRJei2Mq"
+      ],
+      "year": "2018",
+      "engine": "4.4",
+      "id": 25
+    },
+    {
+      "title": "BMW X7",
+      "price": "150000",
+      "description": "Произведение класса люкс: новый BMW X7 является элегантным слиянием присутствия и личности. Несмотря на его величественный внешний вид, это создает впечатление легкости и ловкости благодаря простому дизайну и спортивному стилю",
+      "brand": "1",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfQdQl10tLhu1XzWVo7puMLWFmdkAj5DOPccf%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giLhNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV05Wh1DMztileeqVYDafH6ojmztYRSJyL67aftxdTCkw1RSfWQlEv%25VxdSeZG4NuzWQdjc9NR3aeZQ6KownXRjcZwBL%25mrx6KcOxgmqTACygNWaImlOECUkeie7sgNEbn%25RP10UkNh5urMVAbnkq834azOh5nmPX7Jagq857Mr1xRUmP81D4YSxb7MPVYFt9Wh1DMztIlJeqVYDafv3LjmztYRSGjM67aftxd9Uww1RSfWQosX%25VxdSeZL06uzWQdjcyX23aeZQ6KCoXXRjcZwBELsrx6Kc%252ZKb4WwBKupciIFe%252B3iKLlIjup2XHByXv63iprJ2C3GwXHi4TpE89%25rJHFliNJou4TJIsHkDL3FlTv0J69yXIslGAnnbCrv0s9O5QJE4GA0og8j3NF9OALUPMykIogOybMD4nvLUgChDYK5GybUEqYtD89ChbNmtfnPoEqhk7fSYMLNmqn1SwtDyk7m5VdaxYCn178zQRAtE5V1PaZxjfN8zVMRc4XSkPazDxKiUdnMRaYWBHLQ5DxRte2m2Z8YWxfjtO9cPteWS6fgBKMfjedwSIJBDS6jQ%25dDt2YI6lUJujnWqAwIrxlRYechZ7dfCs"
+      ],
+      "year": "2018",
+      "engine": "5",
+      "id": 26
+    },
+    {
+      "title": "BMW X4",
+      "price": "105000",
+      "description": "Автомобили BMW X4 M властвуют на любой дороге. Сильные, уверенные в себе и всегда готовые проверить свои навыки. Они сочетают в себе выдающуюся производительность и эксклюзивность автомобиля M с выразительным темпераментом BMW X4. ",
+      "brand": "1",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7S7D10tLhu1XzWVo7puMLWFmdkAj5DOPDULoubf4Bw8j7aA5qntUp6xbZOMVXuMwVQX9v6ODubLz2aKqfkYmjmB2fJj5DOPMEagd%25kcWExHWpbl8FO2k3Hy2o242tTTQBrXpFpYulZ24riIn0ascpF4HvmUx0KiIFJG7TWABHvIT9aheO2JGvloRsdgpT9GsLx9FUilo90yWokbHsLoACeQThJ0yLOEjcmqTACygN6MimlOECUkwRS7sgNEbn%25Dw10UkNh5u1CVAbnkq83KxzOh5nmPX%25Qagq857MnjxRUmP81D5PAxb7MPVY8tOWh1DMztPloeqVYDafM3ajmztYRSDXz67aftxdXXVw1RSfWQrCD%25VxdSeZ4U3uzWQdjcFIj3aeZQ6KIO0XRjcZwBvL4rx6Kc%252Gt54WwBKup%258PFe%252B3iuP3Ijup2XH3ccv63iprJXMGGwXHi4Trx29%25UHNMClix2t5JUABNK%25pIYFSr3Vk"
+      ],
+      "year": "2019",
+      "engine": "4",
+      "id": 27
+    },
+    {
+      "title": "BMW 1 серии",
+      "price": "50000",
+      "description": "Чистое cтремление: новый BMW 1 серии прибыл, чтобы привлечь к себе восхищенные взгляды. Его выдающийся дизайн и прогрессивный язык дизайна выделяют его из толпы с первого взгляда. То же самое касается и его салона с современной атмосферой, которая вдохновляет своим первоклассным качеством и открытостью. Эффективные двигатели, передний привод, впервые представленный в новой BMW 1 серии, и новейшие технологии шасси гарантируют впечатления от вождения, полные динамики и маневренности, а инновационные технологии и системы помощи водителю гарантируют, что вы всегда доберетесь до пункта назначения безопасно и удобно.",
+      "brand": "2",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfyIsd10tLhu1XzWVo7puMLWFmdkAj5DOP4hO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZ8NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVOsWh1DMztI0oeqVYDafa3mjmztYRSRHL67aftxdxbWw1RSfWQWqU%25VxdSeZsdYuzWQdjc0KX3aeZQ6KABxXRjcZwBOgMrx6Kc%252g7Q4WwBKupUI8Fe%252B3ibMPIjup2XHhDrv63iprJqYwGwXHi4TnCt9%25rJHFl5txou4TJIs8fzL3FlTv0PGdyXIslGAtnQCrv0s9OfQ6E4GA0ogSZkNF9OALUdylkIogOybQCunvLUgChZE85GybUEqcbA89ChbNmKhzPoEqhk7B1aMLNmqn12rCDyk7m5VpbYYCn178ziJhtE5V1PaHTGfN8zVMRJGdSkPazDxT%25odnMRaYWluEQ5DxRtesulZ8YWxfj0GScPteWS6AEbKMfjedwWQXBDS6jQ%25e682Ydw6Zuj3iptQ%25wc36keifZu%25KXwn1HSc3uBr%256PJdKX324uO2TQBrXpF3gmlZ24riIXUqscpF4HvrSQ0KiIFJG4dUABHvIT9hWrO2JGvloqfcgpT9GsLmdbUilo90y71AbHsLoAC1VphJ0yLOEVzwqTACygNzf1mlOECUkaQS7sgNEbnRjp10UkNh5x6zVAbnkq8WoWzOh5nmPqesagq857MmINRUmP81D7vSxb7MPVY1GWWh1DMztVlgeqVYDafz88jmztYRSao6672tr93dYgMyIf2cPr87DWLxEaVs4"
+      ],
+      "year": "2015",
+      "engine": "2.5",
+      "id": 28
+    },
+    {
+      "title": "BMW X135i xDrive",
+      "price": "35000",
+      "description": "Предлагая больше производительности, больше стиля и больше удовольствия от вождения, совершенно новый BMW M135i xDrive устанавливает новые стандарты. Его спортивная внешность демонстрирует это с характерными деталями, такими как специальная двойная решетка радиатора M135i xDrive в виде сетки, задний спойлер М и две 100-мм выхлопные трубы. На дороге BMW M135i xDrive задает тон: сочетание стандартного спортивного дифференциала M Sport, BMW xDrive, трансмиссии Steptronic Sport и рулевого управления M Sports делает его лучшим автомобилем в своем классе с точки зрения маневренности и поворотов. Этот уверенный автомобиль BMW 1 серии M, оснащенный высокооборотным 4-цилиндровым бензиновым двигателем BMW M135i M TwinPower Turbo, предлагает новый уровень производительности и динамики вождения.",
+      "brand": "2",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfyIsd10tLhu1XzWVo7puMLWFmdkAj5DOP4hO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gSQNNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVOsWh1DMztI0oeqVYDafa3mjmztYRSRHL67aftxdxbWw1RSfWQWqU%25VxdSeZsdYuzWQdjc0KX3aeZQ6KABxXRjcZwBOgMrx6Kc%252g7Q4WwBKupUI8Fe%252B3ibMPIjup2XHhDrv63iprJqYwGwXHi4TnCt9%25rJHFl5txou4TJIs8fzL3FlTv0PGdyXIslGAtnQCrv0s9OfQ6E4GA0ogSZkNF9OALUdylkIogOybQCunvLUgChZE85GybUEqcbA89ChbNmKhzPoEqhk7B1aMLNmqn12rCDyk7m5VpbYYCn178ziJhtE5V1PaHTGfN8zVMRJGdSkPazDxT%25odnMRaYWluEQ5DxRtesulZ8YWxfj0GScPteWS6AEbKMfjedwWQXBDS6jQ%25e682Ydw6Zuj3iptQ%25wc36keifZu%25KXwn1HSc3uBr%256PJdKX324uO2TQBrXpF3gmlZ24riIXUqscpF4HvrSQ0KiIFJG4dUABHvIT9hWrO2JGvloqfcgpT9GsLmdbUilo90y71AbHsLoAC1VphJ0yLOEVzwqTACygNzf1mlOECUkaQS7sgNEbnRjp10UkNh5x6zVAbnkq8WoWzOh5nmPqesagq857MmINRUmP81D7vSxb7MPVY1GWWh1DMztVlgeqVYDafz88jmztYRSao6672tr93dYgMyIf2cPr87DWLxEaVs4"
+      ],
+      "year": "2016",
+      "engine": "2",
+      "id": 29
+    },
+    {
+      "title": "BMW M249i Cupe",
+      "price": "43000",
+      "description": "Необузданный, динамичный, разгон с места до «сотни» за 4,8 секунды. BMW M240i Coupe рассчитан на бескомпромиссную динамику. Специально настроенная спортивная подвеска M, оптимизированные высокомощные компоненты и внушительный мощностной потенциал рядного 6-цилиндрового бензинового двигателя M Performance TwinPower Turbo с его 340 л.с. генерируют чистый восторг со всеми вытекающими последствиями - повышенным уровнем адреналина и яркими эмоциями. ",
+      "brand": "3",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2krlROWUmgXASRCrm608Gp1oEiyAXXaMLWHNO9cvwXzZjQixUG4WsaBuCLB9ulCP5Ga2LWD3gXAjH5Pvv6OgHqvZ2aKBfXRTod0Ff4hFUW7ckagdyhYgMgNSzfmlDCRwzky2o3eED89RGlLbuUrO0Zx"
+      ],
+      "year": "2017",
+      "engine": "2.5",
+      "id": 30
+    },
+    {
+      "title": "BMW M8 КАБРИОЛЕТ",
+      "price": "68000",
+      "description": "Мощные автомобили BMW 8 серии Кабриолет M повышают привлекательность вождения с открытым верхом, создавая новый стандарт роскоши. BMW M850i xDrive Кабриолет обладает современным дизайном, высоким уровнем эксклюзивности и блестящим балансом комфорта, динамической мощности и эффективных характеристик. BMW M8 Кабриолет с M xDrive, обладающий бескомпромиссными характеристиками и эксклюзивной атмосферой, является высокопроизводительным спортивным автомобилем, который доставляет необычайное удовольствие от вождения под открытым небом. ",
+      "brand": "11",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0j1w10tLhu1XzWVo7puMLWFmdkAj5DOPlX2%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giAQNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVeyWh1DMztIAzeqVYDafMsLjmztYRSD3w67aftxdRMMw1RSfWQxOq%25VxdSeZs3EuzWQdjcF9h3aeZQ6Kdv6XRjcZwBETVrx6Kc%252GmF4WwBKup%258PFe%252B3iKLnIjup2XH3a4v63iprJ2xFGwXHi4T4x29%25rJHFl71You4TJIsDUML3FlTv0JnlyXIslGAv64Crms8fnOl6JQD0mbH8irTod9cvFxP"
+      ],
+      "year": "2019",
+      "engine": "4",
+      "id": 31
+    },
+    {
+      "title": "BMW M5 ",
+      "price": "89000",
+      "description": "Волнительная элегантность форм. Высочайшая за все времена мощность. Новое поколение BMW M5 - воплощение высочайшего инженерного искусства и инновационного интеллекта. Для небывалого уровня динамики вплоть до границы возможностей. С многочисленными суперсовременными технологиями, которые привносят в деловые будние больше безопасности и комфорта. Инновационная система полного привода M xDrive нового BMW M5 мощностью 600 л.с. ",
+      "brand": "6",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0jxA10tLhu1XzWVo7puMLWFmdkAj5DOPa02%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZQNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpzGWh1DMztVY6eqVYDafMsLjmztYRSYwh67aftxdIXCw1RSfWQvC0%25VxdSeZ4gYuzWQdjcFIw3aeZQ6KIvNXRjcZwBZkWrx6Kc%252cGJ4WwBKupcoCFe%252B3inZIIjup2XHhpcv63iprJ2CrGwXHi4TCao9%25rJHFlENFou4TJIsDKGL3FlTv0v1HyXIslGATOECrv0s9OfRQE4GA0ogYLcNF9OALUduskIogOybMMGnvLUgChOrM5GybUEqjXO89ChbNmtfYPoEqhk7wHiMLNmqn1SdtDyk7m5Vp8bYCn178z7FWtE5V1PaZr3fN8zVMRcKDSkPazDxTYQdnMRaYWBqBQ5DxRteRYzZ8Xxi02jRCzgTWX%25Vi18aSOfbYM9H"
+      ],
+      "year": "2019",
+      "engine": "4.9",
+      "id": 32
+    },
+    {
+      "title": "BMW X6",
+      "price": "57000",
+      "description": "Настоящий бунтарь - новый BMW X6 излучает провокационное самоутверждение. Прежде всего, это видно в чрезвычайно спортивном кузове автомобиля вместе с новым, отличительным языком дизайна, что проявляется в высочайшей эксклюзивности и дальновидных технологиях, таких как впечатляющая решетка радиатора BMW «Iconic Glow». Все это, в первую очередь, указывает на одно: абсолютное превосходство, которое новый BMW X6 демонстрирует вполне естественно на любой дороге благодаря мощному двигателю, точной подвеске и таким функциям, как пакет xOffroad. Испытайте ранее невиданный способ получения удовольствия от вождения с новым BMW X6.\n",
+      "brand": "1",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6GDP10tLhu1XzWVo7puMLWFmdkAj5DOPcjV%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giLhNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVb5Wh1DMztIVweqVYDafvRAjmztYRSDXc67aftxdXJhw1RSfWQrvU%25ViSFLrZfbYEGdiBDFMVtjCekxaAI"
+      ],
+      "year": "2015",
+      "engine": "4",
+      "id": 33
+    },
+    {
+      "title": "BWM M3 ",
+      "price": "45000",
+      "description": "Бескомпромиссный четырехдверный спорткар с потрясающим дизайном. С множеством новых технологий, взятых из мира автоспорта. Для дальнейшего повышения динамики и улучшения маневренности. Для моментов с выбросом огромного количества адреналина, когда сразу же становится ясно: Вы ставите свой очередной рекорд – BMW M3.",
+      "brand": "4",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfFJWd10tLhu1XzWVo7puMLWFmdkAj5DOPHW3%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZTNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpGEWh1DMztVAReqVYDafMsLjmztYRSJyh67aftxdIXCw1RSfWQrpu%25VxdSeZLFjuzWQdjceE33aeZQ6KjffXRjcZwB67Wrx6Kc%252w1Q4WwBKup9oXFe%252B3ioL8Ijup2XHBRKv63iprJpM%25GwXHi4TmHB9%25rJHFliNFou4TJIsDvWL3FlTv0JAwyXIslGAnSRCrv0s9Of0JE4GA0ogSAqNF9OALUPMLkIogOybQJinvLUgChCWA5GybUEqgmP89ChbNmUhIPoEqhk7BxgMLNmqn1hUFDyk7m5VddEYCn178zmQftE5V1PaXGmfN8zVMRcKZSkPazDxVY6dnMRaYWFOAQ5DxRte2pKZ8YWxfj0XkcPteWS6AyDKMfjedwOQRBDS6jQ%25jEr2Ydw6ZuTyoptQ%25wc3lsKifZu%25KXhBJHSc3uBr0W0JdKX3243B%25TQLXg7AF3D%25zhrLGwg6QuiVpRBc5U"
+      ],
+      "year": "2018",
+      "engine": "4",
+      "id": 34
+    },
+    {
+      "title": "BMW 4 серии",
+      "price": "90000",
+      "description": "Бескомпромиссный и неповторимый: новый BMW 4 серии Coupe решительно и элегантно разрушает стереотипы. Его независимый дизайн и классический купеобразный силуэт напоминают о легендарных моделях прошлого и в то же время подчеркивают прогрессивный характер автомобиля. Небольшая масса напрямую влияет на поведение модели на дороге: впечатляющая маневренность и запоминающаяся динамика заставляют сердце владельца биться чаще. Мощное спортивное купе окутано аурой недосягаемости, что делает его еще более привлекательным.",
+      "brand": "5",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6Jpw10tLhu1XzWVo7puMLWFmdkAj5DOPFtprZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giUXNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV2GWh1DMztzC5eqVYDafHS6jmztYRSJTN67aftxdT%25hw1RSfWQluC%25VxdSeZsNEuzWQdjc0k13aeZQ6KoInXRjcZwBLnUrx6Kc%252yud4WwBKupC3PFe%252B3inXvIjup2XH5pcv63iprJ8i0GwXHi4TPzu9%25rJHFlMRLou4TJIsDbWL3FlTv0YhwyXIslGAt5VCrv0s9OfDJE4GA0ogSYVNF9OALU0OXkIogOybAgjnvLUgChOq85GybUEqgtE89ChbNmUfcPoEqhk7bSqMLNmqn1hd2Dyk7m5VqGhYCn178zm9MtE5V1PaZlqfN8zVMRcvySkPazDxK9QdnMRaYWB2tQ5DxRte2pkZ8YWxfjpiOcPteWS6iv2KMfjedwHG5BDS6jQ%25JL92Ydw6ZuTAnptQ%25wc3lOHifZu%25KXsxsHSc3uBrK16JdKX324BVTTQBrXpF2PflZ24riIpuuscpF4Hvia00KiIFJG18bABNIqab9FSrW1vNyXq3B4lxTjHpDm"
       ],
       "year": "2020",
-      "id": 23
+      "engine": "4",
+      "id": 35
+    },
+    {
+      "title": "BMW 6 серии GT",
+      "price": "50000",
+      "description": "BMW 6 серии GT выделяется своей уникальной элегантностью и исключительно просторным, великолепно оформленным салоном. Его замечательные ходовые качества гарантируют спортивную динамику и высочайший комфорт в далеких путешествиях. Этот автомобиль говорит сам за себя, будучи эталоном современного дизайна и доставляя максимум удовлетворения в больших путешествиях.",
+      "brand": "7",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7GIC10tLhu1XzWVo7puMLWFmdkAj5DOPafV%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g37WNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYXMSWh1DMzti9CeqVYDafztwjmztYRSDXK67aftxdYACw1RSfWQfum%25VxdSeZG4NuzWQdjcy9T3aeZQ6KAbrXRjcZwBEg%25rx6Kc%252wn44WwBKup%25QQFe%252B3io7ZIjup2XHLy4v63iprJyCMGwXHi4TiDu9%25rJHFlHEOou4TJIsDyyL3FlTv0VliyXIslGAT5GCrv0s9Ofo6E4GA0ogSPaNF9OALUPMLkIogOybQLmnvLUgChCWA5GybUEqgmP89ChbNmUhIPoEqhk7NiMMLNmqn1kHUDyk7m5Vu30YCn178zQgTtE5V1PaZZkfN8zVMR1LZSkPazDx4o1dnMRaYWB2KQ5DxRteIgOZ8YWxfjpiBcPteWS6ArnKMfjedw92bBDS6jQ%25gNr2Ydw6Zu6N4ptQ%25wc3cLmifZu%25KXsEyHSc3uBr0A2JdKX324mplTQBrXpFOjOlZ24riIrp3scC4bVgvrt3RmFCoub%25cXJaHWpBPh"
+      ],
+      "year": "2018",
+      "engine": "4.4",
+      "id": 36
+    },
+    {
+      "title": "BMW M760Li",
+      "price": "98000",
+      "description": "Совершенные характеристики и максимальное удовольствие BMW 7 серии обращает на себя внимание внушительным обликом, исключительной мощностью и максимальным комфортом. BMW 750Li с новым 8-цилиндровым бензиновым двигателем BMW TwinPower Turbo и интеллектуальной системой полного привода xDrive в стандартной комплектации рожден, чтобы стать безоговорочным лидером. Эмоциональность элегантного дизайна и особая атмосфера роскоши внутреннего пространства с высоким качеством отделки, разнообразием декоративных элементов и технических инновационных решений поднимают новую модель на вершину класса «люкс». Элегантность встречает эксклюзивность. Роскошь встречает производительность.",
+      "brand": "8",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfFdVw10tLhu1XzWVo7puMLWFmdkAj5DOP45V%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gAThNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpzaWh1DMztIA1eqVYDafH6ojmztYRSJyF67aftxdIXCw1RSfWQveE%25VxdSeZL4buzWQdjcyN33aeZQ6KCkgXRjcZwBEhmrx6Kc%252Nqz4WwBKupkHaFe%252B3inJIIjup2XH5TWv63iprJ8vrGwXHi4TPby9%25rJHFlM1tou4TJIsDVEL3FlTv0YCayXIslGAtEUCrv0s9OfDhE4GA0ogSYVNF9OALU0llkIogOybADynvLUgChOYU5GybUEqgtc89ChbNmUFnPoEqhk7ffaMLNmqn1SHUDyk7m5VdQ5YCn178zQZPtE5V1PaZ3GfN8zVMRcXySkPazDxKe6dnMRaYWBjXQ5DxRte2JyZ8YWxfjpTKcPteWS6fUaKMfjedwSbBBDS6jQ%25dE82Ydw6ZuO8pptvwsbT365emO%25v4WsxtjKqc1QSE0"
+      ],
+      "year": "2019",
+      "engine": "4.4",
+      "id": 37
+    },
+    {
+      "title": "BMW 8 серии Гран Купе",
+      "price": "87000",
+      "description": "Когда динамика сходится с роскошью, результат уникален. BMW 8 серии Gran Coupé - это захватывающий дух четырехдверный спортивный автомобиль с большим пространством. Его стиль основан на совершенно новом языке дизайна роскошных спортивных автомобилей, передающих безудержную мощность и впечатляющую маневренность. BMW 8 серии Gran Coupé держит свой бескомпромиссный спортивный ",
+      "brand": "9",
+      "images": [
+        "https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfQJQi10tLhu1XzWVo7puMLWFmdkAj5DOPfff%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZoNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVOvWh1DMztIVZeqVYDafHsjjmztYRSF3y67aftxdIWCw1RSfWQveU%25VxdSeZGcAuzWQdjc9UX3aeZQ6Ko7oXRjcZwBEv5rx6Kc%252N544WwBKupk8hFe%252B3in1vIjup2XH5Axv63iprJ8CYGwXHi4TPsy9%25rJHFlM9tou4TJIsDVfL3FlTv0YzkyXIslGAtM7Crv0s9Ol5NE4GA0ogsjcNF9OALU0MLkIogOybADfnvLUgChOrF5GybUEqg4D89ChbNmt3IPoEqhk7frDMLNmqn1SdnDyk7m5VdQ8YCn178zQZLtE5V1PaZcTfN8zVMRc4XSkPazDxKiodnMRaYWD0QQ53RpsBeayVOJx3w1p75zfAtUDPGi"
+      ],
+      "year": "2020",
+      "engine": "4.4",
+      "id": 38
     }
   ]
 }

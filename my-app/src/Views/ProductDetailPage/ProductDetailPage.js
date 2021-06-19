@@ -6,10 +6,12 @@ import { storeContext } from '../../contexts/StoreContext';
 import MainLayout from '../../Layouts/MainLayout';
 import ProductSlider from './components/ProductSlider';
 import classes from './productDetail.module.css';
-import DeleteIcon from '@material-ui/icons/Delete';
-import EditIcon from '@material-ui/icons/Edit';
+import DeleteButton from '@material-ui/icons/Delete';
+import EditButton from '@material-ui/icons/Edit';
 import { useConfirm } from 'material-ui-confirm';
 import { notifySuccess } from '../../helpers/notifiers';
+import { Fab } from "@material-ui/core";
+import Button from "@material-ui/core/Button";
 
 export default function ProductDetailPage() {
   const { fetchProductDetail, productDetail, deleteProduct } =
@@ -25,10 +27,10 @@ export default function ProductDetailPage() {
 
   const handleProductDelete = () => {
     confirm({
-      description: 'Удалить данный товар?',
+      description: 'Удалить данный авто?',
     }).then(() => {
       deleteProduct(id).then(() => {
-        notifySuccess('Товар был успешно удален!');
+        notifySuccess('Авто был успешно удален!');
         history.push('/');
       });
     });
@@ -40,19 +42,20 @@ export default function ProductDetailPage() {
         <div className={classes.container}>
           <ProductSlider images={productDetail.images} />
 
-          <div>
-            <IconButton onClick={handleProductDelete}>
-              <DeleteIcon />
-            </IconButton>
+          <div className={classes.icon}>
+            <Button onClick={handleProductDelete}>
+              <DeleteButton />
+            </Button>
 
-            <IconButton onClick={() => history.push(`/products/${id}/update`)}>
-              <EditIcon />
-            </IconButton>
+            <Button onClick={() => history.push(`/products/${id}/update`)}>
+              <EditButton />
+            </Button>
           </div>
 
           <Typography variant="h5">Модель - {productDetail.title}</Typography>
           <Typography variant="h5">Год - {productDetail.year}</Typography>
           <Typography variant="h5">Объем - {productDetail.engine}</Typography>
+          <Typography variant="h5">Категория - {productDetail.brand}</Typography>
           <Typography variant="h5">Цена - {productDetail.price} $</Typography>
           <Typography variant="body1">{productDetail.description}</Typography>
         </div>

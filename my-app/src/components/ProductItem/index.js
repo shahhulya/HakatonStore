@@ -45,7 +45,7 @@ export default function ProductItem({ data }) {
             </Truncate>
           </Typography>
 
-          <Typography variant="h6">Цена - {price} руб</Typography>
+          <Typography variant="h6">Цена - {price} $</Typography>
           <Typography variant="h6">Год - {year}</Typography>
           <Typography variant="h6">Объем - {engine}</Typography>
           <Typography
@@ -66,7 +66,7 @@ export default function ProductItem({ data }) {
           size="small"
           color="primary"
         >
-          Cart
+          Корзина
         </Button>
         <Button
           onClick={() => history.push(`/products/${id}`)}

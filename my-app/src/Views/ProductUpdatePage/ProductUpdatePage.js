@@ -17,6 +17,7 @@ export default function ProductUpdatePage() {
     images: '',
     year: '',
     engine: '',
+    brand: '',
   });
 
   const { id } = useParams();
@@ -44,6 +45,12 @@ export default function ProductUpdatePage() {
     engine: Yup.number()
       .typeError('Введите число!')
       .required('Обязательное поле!'),
+    year: Yup.number()
+      .typeError('Введите число!')
+      .required('Обязательное поле!'),
+    brand: Yup.number()
+      .typeError('Введите число!')
+      .required('Обязательное поле!'),
     price: Yup.number()
       .typeError('Введите число!')
       .required('Обязательное поле!'),
@@ -56,7 +63,7 @@ export default function ProductUpdatePage() {
       ...values,
       images: [values.images],
     }).then(() => {
-      notifySuccess('Продукт был изменен!');
+      notifySuccess('Авто был изменен!');
       history.push(`/products/${id}`);
     });
   };
@@ -72,8 +79,8 @@ export default function ProductUpdatePage() {
         >
           {({ }) => (
             <Form className={classes.form}>
-              <Typography variant="h4">Изменение продукта</Typography>
-              <label>Название</label>
+              <Typography variant="h4">Изменить данные Авто</Typography>
+              <label>Модель</label>
               <Field
                 className={classes.input}
                 name="title"
@@ -92,6 +99,24 @@ export default function ProductUpdatePage() {
               />
 
               <ErrorMessage component={TextError} name="year" />
+
+              <label>Объем</label>
+              <Field
+                className={classes.input}
+                name="engine"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="engine" />
+
+              <label>Категория</label>
+              <Field
+                className={classes.input}
+                name="brand"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="brand" />
 
               <label>Цена</label>
               <Field
@@ -122,7 +147,7 @@ export default function ProductUpdatePage() {
               />
               <ErrorMessage component={TextError} name="description" />
 
-              <label>Изображение</label>
+              <label>Фото</label>
               <Field
                 className={classes.input}
                 name="images"

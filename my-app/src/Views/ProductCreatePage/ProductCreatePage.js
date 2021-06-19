@@ -2,7 +2,12 @@ import { ErrorMessage, Field, Form, Formik } from "formik";
 import React, { useContext } from "react";
 import MainLayout from "../../Layouts/MainLayout";
 import * as Yup from "yup";
-import { Button, FormControl, TextField, Typography } from "@material-ui/core";
+import FormControl from '@material-ui/core/FormControl';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
+import Typography from '@material-ui/core/Typography';
+
+// import { Button, TextField, Typography } from "@material-ui/core";
 import classes from "./productCreate.module.css";
 import TextError from "../../components/TextError";
 import { storeContext } from "../../contexts/StoreContext";
@@ -94,6 +99,14 @@ export default function ProductCreatePage() {
               />
               <ErrorMessage component={TextError} name="engine" />
 
+              <label>Категория</label>
+              <Field
+                className={classes.input}
+                name="brand"
+                variant="outlined"
+                as={TextField}
+              />
+              <ErrorMessage component={TextError} name="brand" />
 
               <label>Цена</label>
               <Field
@@ -114,28 +127,11 @@ export default function ProductCreatePage() {
                 as={TextField}
               />
               <ErrorMessage component={TextError} name="description" />
-              <label>Категория</label>
-              <Field
-                className={classes.input}
-                name="brand"
-                variant="outlined"
-                as={TextField}
-              />
-              <ErrorMessage component={TextError} name="brand" />
 
               <label>Фото</label>
               <Field
                 className={classes.input}
                 name="images"
-                variant="outlined"
-                as={TextField}
-              />
-              <ErrorMessage component={TextError} name="images" />
-
-              <label>Категория</label>
-              <Field
-                className={classes.input}
-                name="brand"
                 variant="outlined"
                 as={TextField}
               />

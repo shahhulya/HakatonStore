@@ -1,0 +1,96 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "title": "Adventurous",
+      "sliderImages": []
+    },
+    {
+      "id": 2,
+      "title": "Relaxing",
+      "sliderImages": []
+    },
+    {
+      "id": 3,
+      "title": "Family",
+      "sliderImages": []
+    },
+    {
+      "id": 4,
+      "title": "Romantic",
+      "sliderImages": []
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "brand": "2",
+      "title": "Ala Archa National Park",
+      "location": "Chuy Region, Kyrgyzstan",
+      "area": "194 km2",
+      "established": "1976",
+      "description": "The Ala Archa National Park is an alpine national park in the Tian Shan mountains of Kyrgyzstan, established in 1976[1] and located approximately 40 km south of the capital city of Bishkek. In Kyrgyz, the archa, which gives the park its name, is a bright or many-colored juniper which the Kyrgyz people have traditionally held in special esteem, using smoke from its burning wood to chase away evil spirits. However, the archa is not supposed to be planted near the home, because it is believed gradually to sap the energy from human beings living close-by.",
+      "images": [
+        "https://indyguide-web-development.s3.us-east-2.amazonaws.com/listings/images/7-Days-Around-Issyk-kul-1607504688400.jpg",
+        "https://explore-share.imgix.net/wp-content/uploads/2017/10/kyrgy.jpg",
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS5d74TPo6DY9FQ-HxH1rKPmpJmetYVmW42C_hgWMUD5HwgPREPzDtH9s84ujT9_H0rY9XOTL44cJygCJOD9G5CQA",
+        "https://www.meganstarr.com/wp-content/uploads/2016/11/IMG_3350-2-1024x683.jpg",
+        "https://i0.wp.com/www.kyrgyz-travel.com/wp-content/uploads/2017/02/Kyrgyzstan-Ala-Archa-Park-River.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "brand": "4",
+      "title": "Tash-Rabat",
+      "location": "Naryn Province, Kyrgyzstan",
+      "area": "3,200 meters",
+      "established": "15th century",
+      "description": "Tash Rabat is a well-preserved 15th century stone caravanserai in At Bashy district, Naryn Province, Kyrgyzstan located at an altitude of 3,200 meters. Tash Rabat is located somewhat east of the main north-south highway. To the south are Lake Chatyr-Kul and Torugart Pass. To the north is Koshoy Korgon, a ruined fortress of uncertain date. The area is a center for hiking and horse-trekking. The caretakers of Tash Rabat offer lodging, consisting of 5 or 6 yurts. As early as 1888, Russian doctor and traveler Nicolay Lvovich Zeland suggested that it was originally a Nestorian or Buddhist monastery.[1] Research undertaken at the end of the 1970s and beginning of the 1980s by the Institute of History of the Kyrgyz Academy of Sciences concluded that Tash Rabat was originally built as a Nestorian monastery in the 10th century, although no Christians artifacts were found during excavations. The structure consists of 31 rooms, including chambers in the central hall. The rooms are dome-shaped; transition from a quadrangular frame to a dome is done using a squinch. Tash Rabat is completely made of crushed stone on clay mortar with gypsum mortar sealing joints.",
+      "images": [
+        "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhlNjMwNWU2NGUxNTllNTgzYjEzZmYzNmI4NGYzZTY1YmIxYTFlMzYuanBnIl0sWyJwIiwidGh1bWIiLCI1ODB4NTgwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0/8e6305e64e159e583b13ff36b84f3e65bb1a1e36.jpg",
+        "https://cdn.shortpixel.ai/spai/w_921+q_glossy+ret_img+to_webp/https://www.timetravelturtle.com/wp-content/uploads/2016/11/Kyrgyzstan-2016-139_new.jpg",
+        "https://lh3.googleusercontent.com/proxy/Ho9RB_rnjBFZqdbBbXrB36VNNzOevtjX1c19pUHvlvEMImU2z4RgYGlYLdgOLyqLJJIfplp9UR3kewdZN0V2JM03PjqB8PTeBUo_k9Vyp88Vgf3qv38nKmPGiu6FfML8IB4Rew",
+        "https://i1.wp.com/www.kyrgyz-travel.com/wp-content/uploads/2016/01/Tash-Rabat-main-corridor-2.jpg?resize=700%2C400",
+        "https://www.timetravelturtle.com/wp-content/uploads/2016/11/Kyrgyzstan-2016-145_feat.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "1",
+      "title": "Burana Tower",
+      "location": "Chuy Region, Kyrgyzstan",
+      "area": "Height: 25 m (82 ft)",
+      "established": "11th century",
+      "description": "The Burana Tower is a large minaret in the Chuy Valley in northern Kyrgyzstan. It is located about 80 km east of the country's capital Bishkek, near the town of Tokmok. The tower, along with grave markers, some earthworks and the remnants of a castle and three mausoleums, is all that remains of the ancient city of Balasagun, which was established by the Karakhanids at the end of the 9th century. The tower was built in the 11th century and was used as a template for other minarets. An external staircase and steep, winding stairway inside the tower enables visitors to climb to the top. It is one of the oldest architectural constructions in Central Asia. The tower was originally 45 m high. However, over the centuries a number of earthquakes caused significant damage to the structure. The last major earthquake in the 15th century destroyed the top half of the tower, reducing it to its current height of 25 m. In the early 1900s, Russian immigrants to the area used some of the bricks from the tower for new building projects. A renovation project was carried out in the 1970s to restore its foundation and repair the west-facing side of the tower, which was in danger of collapse.",
+      "images": [
+        "https://www.kyrgyzstantravel.com/cdn/kg-public/burana_tower.jpg",
+        "https://i.pinimg.com/originals/f2/a6/bc/f2a6bc34e6be7f5706ff0cd1cfa0bfd4.jpg",
+        "https://triptokyrgyzstan.com/sites/default/files/media/image/burana_tower_c_golive_serve.jpg",
+        "https://blog.dookinternational.com/wp-content/uploads/2017/01/a31.jpg",
+        "https://i.mycdn.me/image?id=837721620327&t=0&plc=MOBILE&tkn=*VAzaLpkFPrnIQtx8FUHX2nTwiPA"
+      ]
+    },
+    {
+      "id": 4,
+      "brand": "4",
+      "title": "Sary-Chelek lake",
+      "location": "Jalal-Abad Province, Kyrgyzstan",
+      "area": "Max.depth: 234m, Surface elevation: 1,873m",
+      "established": "",
+      "description": "Sary-Chelek (also Sarychelek, Kyrgyz: Сарычелек) is a mountain lake located in Sary-Chelek Nature Reserve in Jalal-Abad Province in Western Kyrgyzstan. It is north of Arkit (the park headquarters) at the eastern end of the Chatkal Range. There are a number of smaller lakes in the area",
+      "images": [
+        "https://cacdn.araratour.com/file_manager/images/Kyrgyzstan/Legends/Sary-Chelek.jpg",
+        "https://sputnik.kg/images/104502/71/1045027149.jpg",
+        "https://static.akipress.org/st_gallery/18/708118.321a7710d8c24d48fd8b46cfa445d0d2.jpg",
+        "https://sputnik.kg/images/104502/71/1045027199.jpg",
+        "https://asiamountains.net/assets/cache_image/assets/lib/resized/405/1600x1066_0x0_d0b.jpg"
+      ]
+    }
+
+
+    
+  ]
+}
+
+
